@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+body {
+    background: rgb(27, 136, 249);
+    background: linear-gradient(90deg, rgba(27, 136, 249, 0.7203995601173021) 6%, rgba(101, 116, 255, 1) 28%, rgba(0, 113, 255, 0.7977665165165165) 100%);
+    min-height: calc(100vh -100px);
+}
+
+.banner {
+    background: rgb(27, 136, 249);
+    background: linear-gradient(90deg, rgba(27, 136, 249, 0.7203995601173021) 6%, rgba(101, 116, 255, 1) 28%, rgba(0, 113, 255, 0.7977665165165165) 100%);
+    min-height: calc(100vh -100px);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#catalog {
+    height: 50px;
+    width: 350px;
+    background: rgb(27, 136, 249);
+    background: linear-gradient(90deg, rgba(27, 136, 249, 0.7203995601173021) 6%, rgba(101, 116, 255, 1) 28%, rgba(0, 113, 255, 0.7977665165165165) 100%);
+}
+
+h1 {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#catalogcontent {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.products {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#product {
+    width: 150px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
+    color: grey;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    background-color: white;
+    border-radius: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100px;
+    text-color: white;
+}
+
+a {
+    font-size: 10px;
+    color: grey;
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgb(172, 170, 170, .8);
+}
+
+img {
+    width: 75px;
+}
+
+h2 {
+    width: 100px;
+}

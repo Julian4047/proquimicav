@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+body {
+    background: rgb(27, 136, 249);
+    background: linear-gradient(90deg, rgba(27, 136, 249, 0.7203995601173021) 6%, rgba(101, 116, 255, 1) 28%, rgba(0, 113, 255, 0.7977665165165165) 100%);
+    min-height: calc(100vh -100px);
+    display: grid;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#imgtitle {
+    height: 400px;
+}
+
+nav {
+    list-style: none;
+    background: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+nav a {
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    line-height: 50px;
+    width: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+    background: white;
+}
+
+nav a:hover {
+    background: rgb(0, 183, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#ig_gallery {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.marketplace {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+
+iframe {
+    width: 750px;
+    height: 350px;
+    margin: 50px;
+}
+
+.separator {
+    background: white;
+    display: inline-flex;
+    justify-content: center;
+    height: 50px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    align-items: center;
+}
+
+.mothercontacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+}
+
+.cards {
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    width: 14rem;
+    padding: 25px;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    color: grey;
+    border-radius: 50px;
+}
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+}
+
+#wpp:hover {
+    background: rgb(132, 250, 136);
+    background: linear-gradient(90deg, rgba(132, 250, 136, 0.7203995601173021) 0%, rgb(99, 160, 92) 99%);
+}
+
+#fb:hover {
+    background: rgb(27, 136, 249);
+    background: linear-gradient(90deg, rgba(27, 136, 249, 0.7203995601173021) 0%, rgba(24, 113, 232, 1) 99%);
+}
+
+#ig:hover {
+    background: rgb(250, 132, 194);
+    background: linear-gradient(90deg, rgba(250, 132, 194, 0.7203995601173021) 0%, rgba(255, 170, 74, 1) 99%);
+}
+
+p {
+    margin-block-start: 100px;
+    margin-block-end: 100px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
